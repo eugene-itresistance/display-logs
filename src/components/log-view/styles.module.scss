@@ -1,0 +1,33 @@
+.wrapper {
+  margin-top: 20px;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__list {
+      height: 600px;
+      width: 900px;
+      border: 1px solid;
+      overflow: scroll;
+    }
+  }
+
+  &__button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & button {
+      border: none;
+      background-color: rebeccapurple;
+      text-transform: uppercase;
+      cursor: pointer;
+      color: white;
+      padding: 24px 48px;
+      font-size: 18px;
+    }
+  }
+}
